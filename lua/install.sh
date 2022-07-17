@@ -1,8 +1,8 @@
 #!/bin/bash
 name=lua
-export RAND=$RANDOM # don't change this either
+export RAND=$RANDOM
 function init() {
-	mkdir /tmp/$RAND # don't change this, I haven't integrated this into the package manager yet.
+	mkdir /tmp/$RAND
 }
 function get_source() {
     curl -R -O http://www.lua.org/ftp/lua-5.4.4.tar.gz
