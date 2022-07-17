@@ -15,7 +15,7 @@ function install() {
     echo "Installing lua..."
     cd lua-5.4.4 || exit 1
     make all test
-    echo "Lua 5.4.4 installed successfully! On how to use Lua, see https://www.lua.org/manual/5.4/"
+    echo "Lua 5.4.4 installed successfully! On how to use Lua, see https://www.lua.org/manual/5.4/."
 }
 function remove() {
     echo "Removing Lua 5.4.4..."
